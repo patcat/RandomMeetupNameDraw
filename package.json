@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Drawing random names from the Meetup API",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "author": "Patrick Catanzariti",
   "dependencies": {
     "express": "^4.12.3",
