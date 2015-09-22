@@ -1,0 +1,54 @@
+.form-elem {
+	padding: 10px 0;
+	
+    input[type="text"],
+    &__currentLabel {
+    	text-align: center;
+    	@include font-size(1);
+    }
+
+    &__help-text {
+    	padding: 5px 0;
+    	text-align: center;
+    	@include font-size(0.8);
+    }
+
+    & * {
+    	margin: 0 auto;
+    }
+
+	input[type="range"] {
+		border: 1px solid #ddd;
+		margin: 10px 0;
+		height: 10px;
+		width: 100%;
+		-webkit-appearance: none;
+
+		&::-webkit-slider-thumb {
+			-webkit-appearance: none;
+			background-color: #666;
+			border-radius: 20px;
+			height: 30px;
+			width: 15px;
+			@extend .common-box-shadow;
+		}
+
+		&::-moz-range-thumb {
+			-webkit-appearance: none;
+			background-color: #666;
+			border-radius: 20px;
+			height: 30px;
+			width: 15px;
+			@extend .common-box-shadow;
+		}
+
+		&::-ms-thumb {
+			-webkit-appearance: none;
+			background-color: #666;
+			border-radius: 20px;
+			height: 30px;
+			width: 15px;
+			@extend .common-box-shadow;
+		}
+	}
+}

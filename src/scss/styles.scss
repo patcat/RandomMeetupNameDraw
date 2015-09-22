@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import "mixins";
+
+body {
+    background: #FFFFFA;
+    background-attachment: fixed;
+    font-family: "ashburylight", Tahoma, sans-serif;
+    font-size: 16px;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "ashburylight", Tahoma;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 0.5em;
+}
+
+a img {
+    border: none;
+}
+a:link {
+    color: #000;
+    text-decoration: none;
+}
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+a:hover, a:active, a:focus {
+    text-decoration: none;
+}
+.container {
+    margin: 0 auto;
+    max-width: 720px;
+    text-align: center;
+    width: 100%;
+}
+
+@import "form-elem";
+@import "btn";
+@import "name";
+@import "page-title";
+@import "logo";
+@import "group";
+@import "ashburylight";

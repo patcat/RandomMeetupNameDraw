@@ -1,0 +1,38 @@
+.btn {
+    @extend .common-box-shadow;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba));
+    background: -moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+    background: -webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+    background: -o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+    background: -ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#bab1ba',GradientType=0);
+    background-color: #ededed;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    background: #333;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-style: normal;
+    @include font-size(1.2);
+    margin: 0 0.5em;
+    padding: 20px 40px;
+    text-decoration: none;
+
+    &:active,
+    &:hover {
+        background-color: #111;
+    }
+
+    &--submit {
+        -moz-border-radius: 100px;
+        -webkit-border-radius: 100px;
+        border-radius: 100px;
+        height: 50px;
+        line-height: 50px;
+        padding: 40px;
+        width: 50px;
+    }
+}

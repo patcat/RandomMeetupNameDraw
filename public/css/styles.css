@@ -1,0 +1,162 @@
+.gradient--chrome {
+  background-image: linear-gradient(0deg, #ffffff, #9d9c9c);
+  background-repeat: no-repeat; }
+
+.common-box-shadow, .form-elem input[type="range"]::-webkit-slider-thumb, .form-elem input[type="range"]::-moz-range-thumb, .form-elem input[type="range"]::-ms-thumb, .btn {
+  -moz-box-shadow: 2px 2px 7px 0px #899599;
+  -webkit-box-shadow: 2px 2px 7px 0px #899599;
+  box-shadow: 2px 2px 7px 0px #899599; }
+
+body {
+  background: #FFFFFA;
+  background-attachment: fixed;
+  font-family: "ashburylight", Tahoma, sans-serif;
+  font-size: 16px;
+  height: 100%;
+  margin: 0;
+  padding: 10px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "ashburylight", Tahoma;
+  font-weight: normal;
+  margin: 0;
+  padding: 0 0 0.5em; }
+
+a img {
+  border: none; }
+
+a:link {
+  color: #000;
+  text-decoration: none; }
+
+a:visited {
+  color: #000;
+  text-decoration: none; }
+
+a:hover, a:active, a:focus {
+  text-decoration: none; }
+
+.container {
+  margin: 0 auto;
+  max-width: 720px;
+  text-align: center;
+  width: 100%; }
+
+.form-elem {
+  padding: 10px 0; }
+  .form-elem input[type="text"],
+  .form-elem__currentLabel {
+    text-align: center;
+    font-size: 16px;
+    font-size: 1rem; }
+  .form-elem__help-text {
+    padding: 5px 0;
+    text-align: center;
+    font-size: 12.8px;
+    font-size: 0.8rem; }
+  .form-elem * {
+    margin: 0 auto; }
+  .form-elem input[type="range"] {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    height: 10px;
+    width: 100%;
+    -webkit-appearance: none; }
+    .form-elem input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      background-color: #666;
+      border-radius: 20px;
+      height: 30px;
+      width: 15px; }
+    .form-elem input[type="range"]::-moz-range-thumb {
+      -webkit-appearance: none;
+      background-color: #666;
+      border-radius: 20px;
+      height: 30px;
+      width: 15px; }
+    .form-elem input[type="range"]::-ms-thumb {
+      -webkit-appearance: none;
+      background-color: #666;
+      border-radius: 20px;
+      height: 30px;
+      width: 15px; }
+
+.btn {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba));
+  background: -moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+  background: -webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+  background: -o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+  background: -ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#bab1ba',GradientType=0);
+  background-color: #ededed;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  background: #333;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  font-style: normal;
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  margin: 0 0.5em;
+  padding: 20px 40px;
+  text-decoration: none; }
+  .btn:active,
+  .btn:hover {
+    background-color: #111; }
+  .btn--submit {
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    height: 50px;
+    line-height: 50px;
+    padding: 40px;
+    width: 50px; }
+
+.name {
+  font-size: 96px;
+  font-size: 6rem;
+  padding: 20px 0; }
+
+.page-title {
+  font-size: 40px;
+  font-size: 2.5rem; }
+
+.logo {
+  border: 0;
+  color: transparent;
+  display: inline-block;
+  font: 0/0 a;
+  padding: 0 10px;
+  text-shadow: none;
+  width: 136px; }
+  .logo--meetup {
+    background: url(../images/logo-meetup.png) 0 0 no-repeat transparent;
+    height: 90px;
+    line-height: 90px; }
+  .logo--iotsyd {
+    background: url(../images/logo-iotsyd.png) 0 0 no-repeat transparent;
+    height: 97px;
+    line-height: 97px;
+    width: 97px; }
+  .logo--devdiner {
+    background: url(../images/logo-devdiner.png) 0 0 no-repeat transparent;
+    height: 97px;
+    line-height: 97px; }
+
+.group {
+  padding: 10px 0; }
+  .group__title {
+    padding: 0 0 15px; }
+
+.ashburylight {
+  font-family: 'ashburylight'; }
+
+@font-face {
+  font-family: 'ashburylight';
+  src: url("../fonts/AshburyLig-webfont.eot");
+  src: url("../fonts/AshburyLig-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/AshburyLig-webfont.woff2") format("woff2"), url("../fonts/AshburyLig-webfont.woff") format("woff"), url("../fonts/AshburyLig-webfont.ttf") format("truetype"), url("../fonts/AshburyLig-webfont.svg#ashburylight") format("svg");
+  font-weight: normal;
+  font-style: normal; }

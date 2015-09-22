@@ -1,0 +1,26 @@
+.logo {
+	border: 0;
+	color: transparent;
+	display: inline-block;
+	font: 0/0 a;
+	padding: 0 10px;
+	text-shadow: none;
+	width: 136px;
+	
+	&--meetup {
+		background: url(../images/logo-meetup.png) 0 0 no-repeat transparent;
+		height: 90px;
+		line-height: 90px;
+	}
+	&--iotsyd {
+		background: url(../images/logo-iotsyd.png) 0 0 no-repeat transparent;
+		height: 97px;
+		line-height: 97px;
+		width: 97px;
+	}
+	&--devdiner {
+		background: url(../images/logo-devdiner.png) 0 0 no-repeat transparent;
+		height: 97px;
+		line-height: 97px;
+	}
+}
