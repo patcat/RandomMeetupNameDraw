@@ -2,17 +2,9 @@ var express = require('express'),
 	app = express(),
 	server = require('http').Server(app),
 	port = process.env.PORT || 5000,
-	SerialPort = require('serialport').SerialPort,
 	request = require('request'),
 	_ = require('underscore'),
-	/*serialPort = new SerialPort('/dev/tty.usbmodem1431', {
-      baudrate: 57600
-    }),*/
     serialMessage = '';
-
-/*serialPort.on('open', function() {
-  console.log('Serial port open');
-});*/
 
 app.get('/chooseMember/:event_id', function(req, resp) {
 	request({
@@ -25,8 +17,6 @@ app.get('/chooseMember/:event_id', function(req, resp) {
 		resp.json(randomMember);
 
 		console.log(randomMember.name);
-
-		//serialPort.write(randomMember.name + '\n');
 	});
 });
 
