@@ -97,7 +97,7 @@ gulp.task('copyimages', function() {
  * 	 Font copying
  * ----------------------------------- */
 gulp.task('copyfonts', function() {
-   gulp.src(sourceFontsFolder + '/**/*.{ttf,woff,eot,svg}')
+   gulp.src(sourceFontsFolder + '/**/*.{ttf,woff,woff2,eot,svg}')
    .pipe(gulp.dest(destFontsFolder));
 });
 
